@@ -20,6 +20,8 @@ cd text-summarizer
 
 2. Install the required dependencies:
 ```bash
+python -m venv env
+source env/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -63,5 +65,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Built using Streamlit framework
 - Uses NLTK for natural language processing
 - Implements PageRank algorithm for sentence ranking
-
 
